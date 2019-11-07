@@ -1,6 +1,11 @@
 doctrine:
     dbal:
         # configure these for your database server
+        dbname:               orgMotanka
+        host:                 localhost
+        port:                 3306
+        user:                 root
+        password:             root
         driver: 'pdo_mysql'
         server_version: '5.7'
         charset: utf8mb4
